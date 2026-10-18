@@ -12,6 +12,13 @@ A Herdr plugin that opens an fzf picker in a floating popup. Entries are sorted 
 
 ```sh
 herdr plugin install trebsoj/herdr-fzf-tab-switcher
+```
+
+## Open the picker manually
+
+If you have not configured a keyboard shortcut, open the picker on demand with:
+
+```sh
 herdr plugin pane open --plugin herdr-fzf-tab-switcher --entrypoint tab-picker
 ```
 
