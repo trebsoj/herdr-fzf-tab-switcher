@@ -1,0 +1,14 @@
+id = "herdr-fzf-tab-switcher"
+name = "Herdr fzf Tab Switcher"
+version = "0.1.0"
+min_herdr_version = "0.9.0"
+description = "Pick and focus any Herdr tab with fzf"
+platforms = ["linux", "macos", "windows"]
+
+[[panes]]
+id = "tab-picker"
+title = "Switch tab"
+placement = "popup"
+width = "80%"
+height = 20
+command = ["node", "index.js"]
