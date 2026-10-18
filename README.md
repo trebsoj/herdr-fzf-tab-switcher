@@ -25,3 +25,7 @@ herdr plugin pane open --plugin herdr-fzf-tab-switcher --entrypoint tab-picker
 ```
 
 Press Enter to switch to the selected tab; Escape closes the picker.
+
+## License
+
+[BSD Zero Clause License (0BSD)](LICENSE) — use, copy, modify, and distribute it for any purpose, with or without a fee, without an attribution requirement. It is provided without warranty.
